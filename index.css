@@ -61,6 +61,8 @@ ul {
 li {
     list-style: none;
 }
+
+/* MW */
 .nav__logo {
     display: flex;
     align-items: center;
@@ -85,8 +87,20 @@ li {
 }
 
 .nav__link--primary {
-    border: 2px solid;
+    /* border: 2px solid; */
     border-radius: 4px;
+}
+/* MW */
+.nav__link--primarylogin {
+    margin-left: 32px;
+}
+/* MW */
+.nav__link--primarysignup {
+    color: #fff;
+    background-color: #7342d6;
+    border-radius: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nav__link--primary:hover {
@@ -100,7 +114,7 @@ li {
     color: #7342d6;
     display: none;
 }
-
+/* 
 .menu__backdrop {
     position: absolute;
     background-color: #242424;
@@ -120,7 +134,7 @@ li {
 .menu--open .menu__backdrop {
         visibility: visible;
         opacity: 1;
-}
+} */
 
 /* 120:29 e-commerence how to fix the scroll bar from appearing with the burger */
 /* .menu--open {
@@ -154,24 +168,26 @@ li {
 LANDING
 
 */
+/* MW edited out background color */
 #landing {
-    background-color: rgba(115, 66, 214, 0.1);
+    /* background-color: rgba(115, 66, 214, 0.1); */
 }
 header {
     height: calc(100vh - 80px);
 }
-
+/* MW max-width to 1200px */
 .header__container{
     width: 100%;
-    max-width: 720px;
+    max-width: 1200px;
     margin: 0  auto;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     
 }
 .header__description {
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
