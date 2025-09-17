@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,8 +16,10 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
+/* MW idk why I had hight on the nav */
 nav {
-    height: 80px;
+    padding-top: 32px;
+    /* height: 80px; */
     display: flex;
 }
 
@@ -74,13 +78,27 @@ li {
     font-weight: bold;
 }
 
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
 .nav__link {
-    margin-left: 16px;
+    margin: 0 24px;
+    /* margin: 0 24px;
     text-decoration: none;
     font-size: 20px;
     color: #7342d6;
     font-weight: bold;
-    padding: 8px;
+    padding-top: 4px; */
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+
 }
 .nav__link:hover {
     text-decoration: underline;
@@ -92,7 +110,7 @@ li {
 }
 /* MW */
 .nav__link--primarylogin {
-    margin-left: 32px;
+    margin-left: 48px;
 }
 /* MW */
 .nav__link--primarysignup {
