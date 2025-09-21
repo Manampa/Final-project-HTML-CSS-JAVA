@@ -40,9 +40,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
-}
+} */
 .purple{
     color: #7342d6;
 }
@@ -103,7 +103,6 @@ li {
 }
 .nav__link {
     /* margin: 0 24px;
-    text-decoration: none;
     font-size: 20px;
     color: #7342d6;
     font-weight: bold;
@@ -115,33 +114,49 @@ li {
     border-bottom: 2px solid transparent;
     position: relative;
     transition: all 300ms;
+    text-decoration: none;
     margin: 0 24px;
 
 }
-.nav__link--primarylogin {
+.login {
     margin-left: 48px;
 }
-.nav__link--primarysignup {
-    color: #fff;
-    background-color: #7342d6;
-    border-radius: 40%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.nav__link:hover {
-    text-decoration: underline;
-}
-
 .nav__link--primary {
-    /* border: 2px solid; */
-    border-radius: 4px;
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
 }
+
+/* .nav__link--primary {
+} */
+/* border: 2px solid; */
+/* border-radius: 4px; */
 /* MW */
 /* MW */
 
-.nav__link--primary:hover {
-    text-decoration: none;
+
+.nav__link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background: #6415ff;
+    transition: all 300ms ease;
+    opacity: 0;
 }
+.nav__link:hover::after {
+    opacity: 1;
+}
+
 .btn__menu {
     background-color: transparent;
     font-size: 40px;
