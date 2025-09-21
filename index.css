@@ -17,7 +17,7 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
-/* MW idk why I had height on the nav */
+
 nav {
     padding-top: 32px;
     /* height: 80px; */
@@ -73,7 +73,7 @@ li {
 
 }
 
-/* MW */
+
 .nav__logo {
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ li {
     width: 40px;
 }
 
-/* MW */
+
 .nav__logo--title {
     font-weight: 900;
     font-size: 24px;
@@ -138,8 +138,7 @@ li {
 } */
 /* border: 2px solid; */
 /* border-radius: 4px; */
-/* MW */
-/* MW */
+
 
 
 .nav__link:after {
@@ -219,7 +218,7 @@ li {
 LANDING
 
 */
-/* MW edited out background color */
+
 #landing {
     padding:0 32px ;
 
@@ -229,7 +228,7 @@ header {
     position: relative;
     /* height: calc(100vh - 80px); */
 }
-/* MW max-width to 1200px */
+
 .container{
     /* width: 100%; */
     /* max-width: 1200px; */
@@ -247,7 +246,7 @@ header .row {
   align-items: center;
   justify-content: space-between;
 }
-/* MW padding top 100px */
+
 .header__description {
     width: 40%;
     /* padding-top: 100px;
