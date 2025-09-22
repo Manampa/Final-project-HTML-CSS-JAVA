@@ -424,8 +424,15 @@ section {
 .section__parra {
     font-size: 18px;
     font-weight: 500;
-    color: 7;
+    color: #7c8ba1;
+    line-height: 1.625;
+    text-align: center;
+    max-width: 576px;
 }
+/* .features .section__parra {
+    text-align: center;
+    max-width: 576px;
+} */
 
 .features {
     display: flex;
