@@ -543,6 +543,18 @@ STEPS
 .steps__img {
     z-index: 2;
 }
+.steps__grid {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
+}
 
 .steps__description {
     padding: 32px 0;
@@ -571,4 +583,12 @@ STEPS
     font-size: 20px;
     color: #243e63;
     line-height: 1;
+}
+
+.step__parra {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
 }
