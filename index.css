@@ -599,6 +599,13 @@ STEPS
 values
 
 */
+#quality .section__title {
+    line-height: 1.25;
+} 
+#values .section__title {
+    line-height: 1.25;
+
+}
 
 #values .row {
     display: flex;
@@ -607,6 +614,11 @@ values
 }
 #values .btn {
     margin-top: 48px;
+}
+
+#values .section__title {
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .values__description, .values__img {
