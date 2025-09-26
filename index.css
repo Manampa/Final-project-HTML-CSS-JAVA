@@ -624,6 +624,9 @@ values
 .values__description, .values__img {
     width: 50%;
 }
+.values__description {
+    padding: 32px 64px 32px 0;
+}
 
 .values__list {
     margin-left: 0px;
